@@ -111,22 +111,23 @@ body {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .div-1, .div-2, .div-3 {
+  border: 5px double lightgrey;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: lightgrey;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  font-family: 'Asap Condensed', sans-serif;
+  background-color: Teal;
   height: 300px;
+  padding: 0 20px 0 20px;
 }
-
-
 
 
 /* ==========================================================================
